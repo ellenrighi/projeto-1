@@ -1,0 +1,250 @@
+
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: url("../img/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    overflow-x: hidden;
+    scroll-snap-align: center;
+}
+
+.top p{
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+.top ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.top header{
+    background: #0c64ac;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.582);
+    flex-shrink: 0;
+}
+.top nav ul{
+    display: flex;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    text-align: left;
+    padding-top: 0;
+}
+.top nav ul li {
+    float: left;
+}
+.top nav ul li a{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 0.6em 1.5em 0.5em;
+    
+}
+.top nav ul li a:hover{
+    color: rgba(255, 255, 255, 0.842);
+}
+.logo{
+    margin:0;
+}
+.logo img{
+    height: 50px;
+}
+.caixas a{
+    display: grid;
+    justify-content: start;
+    color: white;
+    text-decoration: none;
+    
+}
+.caixas h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 45px 45px 0;
+    margin: 0;
+}
+.caixas p{
+    text-align: justify;
+    font-size: 14px;
+    padding: 0 35px 45px 30px;
+}
+.caixas img{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 10px;
+    border-radius: 25px; 
+    padding: 10px;
+    width: 75px;
+    float: left;
+}
+.caixas{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+}
+.caixas a span{
+    margin: 0 40px 20px;
+}
+.caixas .type1{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.555);
+}
+.caixas .type2{
+    color: white;
+    background-color: #0c64ac;
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.555);
+}
+.caixas .type1:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.884);
+}
+.caixas .type2:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.884);
+}
+#meio{
+    height: 48vh;
+    width: 100%;
+}
+h1{
+    position: relative;
+    left: 47%;
+    top: 30%;
+    color: white;
+    font-size: 16px;
+}
+h1 span{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-indent: 12px;
+}
+.aulas{
+    position: absolute;
+    background: black;
+    z-index: 2;
+    color: white;
+    height: 100vw;
+    width: 100vw;
+}
+
+.caixas2 a{
+    display: grid;
+    justify-content: start;
+    color: white;
+    text-decoration: none;
+    
+}
+.caixas2 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 0;
+}
+.caixas2 p{
+    text-align: justify;
+    font-size: 14px;
+    padding: 0 30px 40px;
+}
+.caixas2 iframe{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 75%;
+
+}
+.caixas2{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+}
+.caixas2 a span{
+    margin: 100px 40px 60px;
+}
+.caixas2 .type2{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    width: 400px;
+    height: 550px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.555);
+}
+.caixas2 .type1{
+    color: white;
+    background-color: #0c64ac;
+    border-radius: 25px;
+    width: 400px;
+    height: 550px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.555);
+}
+.caixas .type1:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.884);
+}
+.caixas .type2:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.884);
+
+
+
+
+@media only screen and (max-width:600px) {
+    .logo img{
+        height: 20px;
+    }
+    .top nav ul li a{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0.3em 0.8em 0.2em;
+    }
+}
+.top, .caixas, #meio{
+    animation: fadeIn 2s forwards;
+}
+
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
